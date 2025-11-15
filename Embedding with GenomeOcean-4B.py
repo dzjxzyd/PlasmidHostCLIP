@@ -38,7 +38,7 @@ print("number of unique SeqID", cds_sequences.groupby('SeqID').ngroups)
 seqid_list = sorted(cds_sequences['SeqID'].unique()) # 17769 SeqID
 
 # choose a range from the list
-selected_seqids = seqid_list[0:3000]  # Python 是 0-based
+selected_seqids = seqid_list[0:3000]   # Please Make sure, that you have change the selected sequence list range.
 
 for seqid, group in cds_sequences.groupby('SeqID'):
     if seqid not in selected_seqids:
