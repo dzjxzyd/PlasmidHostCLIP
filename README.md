@@ -5,4 +5,4 @@ Files:
 Embedding with GenomeOcean-4B-bgcFM.py and Embedding with GenomeOcean-4BM.py are example scripts that we used GenomeOcean models embedding our sequences. (Notices: in this code, we only select the 3000 sequences as an examples, when you use it, please make sure you have revise it accordingly.)
 
 
-“positive_pairs.csv” this is the final positive datasets after cleaning.
+“positive_pairs.csv” this is the final positive datasets after cleaning, both chromosomes and plasmids are noted as their Accession Number in NCBI RefSeq Database
