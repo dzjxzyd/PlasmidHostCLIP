@@ -1,1 +1,5 @@
 The original dataset was download at [Duplicated antibiotic resistance genes reveal ongoing selection and horizontal gene transfer in bacteria](https://www.nature.com/articles/s41467-024-45638-9)
+
+
+Files:
+Embedding with GenomeOcean-4B-bgcFM.py and Embedding with GenomeOcean-4BM.py are example scripts that we used GenomeOcean models embedding our sequences. (Notices: in this code, we only select the 3000 sequences as an examples, when you use it, please make sure you have revise it accordingly.)
