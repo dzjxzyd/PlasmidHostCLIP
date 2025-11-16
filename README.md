@@ -36,8 +36,6 @@ Notebook for generating negative host–plasmid pairs and constructing training/
 
 Model_trainining_and_evaluation.py
 
-Main PlasmidHostCLIP model training script, including attention-based fusion of CDS embeddings and evaluation metrics.
-
 run_distributed_clip_training_slurm.sh
 
 SLURM batch script for distributed training on HPC clusters.
